@@ -6,7 +6,7 @@ func pageCount(n: Int, p: Int) -> Int {
     var result: Int = 0
     
     var ltr: Int = 0
-    
+
     for i in (0...n) {
         if i % 2 == 0 && i > 1 {
             ltr += 1
